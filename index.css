@@ -1,8 +1,3 @@
-
-@font-face {
-  font-family: "Karla";
-}
-
 body {
     margin: 0;
     padding: 0;
@@ -11,14 +6,13 @@ body {
     color: white;
     background-color: #1F2937;
     font-family: "Karla";
-    display: flex;
-    align-items: center;
-
+    /* display: flex; */
+    /* align-items: center; */
 }
 
 .app {
     width: 550px;
-    height: 550px;
+    /* height: 550px; */
     margin: 0 auto;
     /* margin-top: 10vh; */
     display: flex;
@@ -89,14 +83,16 @@ hr {
 
 textarea {
     background-color: #273549;
+    /* display: block; */
     color: #55F991;
-    border: none;
-    resize: none;
     font-size: 16px;
     margin: 20px;
     padding: 20px;
     width: 50%;
-    height: 60px;
+    /* height: auto; */
+    field-sizing: content;
     text-align: center;
+    border: none;
+    resize: none;
     overflow: hidden;
 }
