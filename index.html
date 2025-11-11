@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="app">
+            <h1>Generate a <span>random password<span></h1>
+            <h2>Never use an insecure password ever again!</h2>
+            <span class="input-info">Password Length: </span>
+            <input id="pass-length-input" type="number" value="15">
+            <span class="input-info">Include nums & syms:</span>
+            <input type="checkbox" checked id="num-sym-toggle">
+            <button id="generate-btn">Generate passwords</button>
+            <hr>
+            <div class="pswds">
+                <textarea id="pswd1">passone</textarea>
+                <textarea id="pswd2">passtwo</textarea>
+            </div>
+        </div>
+        
+        <script src="index.js"></script>
+    </body>
+</html>

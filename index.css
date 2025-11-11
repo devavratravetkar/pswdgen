@@ -1,0 +1,96 @@
+
+@font-face {
+  font-family: "Karla";
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    /* width: 600px;
+    height: 600px; */
+    color: white;
+    background-color: #1F2937;
+    font-family: "Karla";
+}
+
+.app {
+    width: 550px;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 52px;
+    /* align-items: start; */
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+h1 span{
+    color: #4ADF86;
+    display: block;
+}
+
+h2 {
+    font-weight: 300;
+    margin-top: -10px;
+    /* font-family: "Karla"; */
+    font-style: italic;
+}
+
+button {
+    background-color: #10B981;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+    width: 220px;
+    height: 55px;
+    font-family: "Karla";
+    font-weight: 700;
+    margin: 20px 0 0;
+    font-size: 18px;
+}
+
+.input-info {
+    padding: 20px 0 5px;
+}
+
+#pass-length-input {
+    width: 120px;
+    height: 55px;
+    font-family: "Karla";
+    font-weight: 700;
+    font-size: 24px;
+    text-align: center;
+}
+
+#num-sym-toggle {
+    width: 20px;
+    height: 20px;
+}
+
+hr {
+    width: 100%;
+    margin: 30px 0 10px;
+}
+
+.pswds {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+textarea {
+    background-color: #273549;
+    color: #55F991;
+    border: none;
+    resize: none;
+    font-size: 16px;
+    margin: 20px;
+    padding: 20px;
+    width: 50%;
+    height: 20px;
+    text-align: center;
+}
